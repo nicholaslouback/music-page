@@ -4,30 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <title>Music</title>
 </head>
 <body>
-    <div id="select">
-        <div id="pesquisa">
-            <p><ion-icon name="home-outline"></ion-icon> Home</p>
-            <p><ion-icon name="search-outline"></ion-icon> Search</p>
-        </div><br>
-        <div id="bibliot">
-            <p><ion-icon name="library-outline"></ion-icon>Library</p>
-            <button id="button">Playlists</button>
-            <button id="button">Album</button>
-            <button id="button">Artists</button><br>
-            <p>Recents</p>
-        </div>
-        <div id="musics">
-            <p><img src="capa de musica.jpg" alt="capa" id="capa">Favorite Song</p>
-            <p><img src="capa de cd.jpg" alt="cd" id="capa"></p>
-            <p><img src="cd capa.jpg" alt="cd capa" id="capa"></p>
-            <p><img src="cd capa1.jpg" alt="cd capa1" id="capa"></p>
-            <p><img src="cd capa2.jpg" alt="cd capa2" id="capa"></p>
-            <p><img src="cd capa3.jpg" alt="cd capa3" id="capa"></p>
-            <p><img src="cd capa4.jpg" alt="cd capa4" id="capa"></p>
-        </div>
+    <div class="container">
+        <section id="select">
+            <div id="pesquisa">
+                <p><ion-icon name="home-outline"></ion-icon> Home</p>
+                <p><ion-icon name="search-outline"></ion-icon> Search</p>
+            </div><br>
+            <div id="bibliot">
+                <p><ion-icon name="library-outline"></ion-icon> Library</p>
+                <button id="button">Playlists</button>
+                <button id="button">Album</button>
+                <button id="button">Artists</button><br>
+                <p>Recents</p>
+            </div>
+            <div id="musics">
+                <p><img src="capa de musica.jpg" alt="capa" id="capa">Favorite Song</p>
+                <p><img src="capa de cd.jpg" alt="cd" id="capa"></p>
+                <p><img src="cd capa.jpg" alt="cd capa" id="capa"></p>
+                <p><img src="cd capa1.jpg" alt="cd capa1" id="capa"></p>
+                <p><img src="cd capa2.jpg" alt="cd capa2" id="capa"></p>
+                <p><img src="cd capa3.jpg" alt="cd capa3" id="capa"></p>
+                <p><img src="cd capa4.jpg" alt="cd capa4" id="capa"></p>
+            </div>
+        </section>
+        <section id="home">
+            <div id="header">
+                <button id="buttonheader">All</button>
+                <button id="buttonheader">Music</button>
+                <button id="buttonheader">Podcasts</button>
+                <ul>
+                    <li>
+                        <div class="listimg">
+                            <img src="capa de musica.jpg" alt="capa">
+                            <p>Liked Songs</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listimg">
+                            <img src="capa de cd.jpg" alt="capa">
+                            <p>Music</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listimg">
+                            <img src="cd capa.jpg" alt="capa">
+                            <p>Podcasts</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listimg">
+                            <img src="cd capa1.jpg" alt="capa">
+                            <p>Playlists</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
