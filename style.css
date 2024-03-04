@@ -50,8 +50,9 @@ body {
 }
 
 #button, #buttonheader {
-    background-color: gray;
+    background-color: rgba(202, 202, 202, 0.377);
     border-radius: 30%;
+    cursor: pointer;
 }
 
 p {
@@ -79,6 +80,7 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .text {
@@ -106,11 +108,13 @@ p {
     background: rgba(255, 255, 255, 0.055);
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .listimg {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .listimg img {
@@ -159,6 +163,8 @@ p {
     display: flex;
     align-items: center;
     align-items: baseline;
+    background: rgba(255, 255, 255, 0.055);
+    border-radius: 10px;
 }
 
 #end ul, #more ul {
@@ -173,7 +179,28 @@ p {
     margin-right: 10px;
     display: flex;
     align-items: center;
-    align-items: baseline;
+    background: rgba(255, 255, 255, 0.055);
+    border-radius: 10px;
+    height: 200px;
+    width: 30%;
+    max-width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.sing, .recent, .moresongs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.sing h4, .recent h4, .moresongs h4, 
+.sing p, .recent p, .moresongs p {
+    margin: 0;
 }
 
 .sing img, .recent img, .moresongs img {
