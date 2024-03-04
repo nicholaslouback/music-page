@@ -8,7 +8,10 @@
 body {
     background: rgb(0, 0, 0);
     background-attachment: fixed;
+}
 
+#header {
+    background: linear-gradient(to bottom, rgb(34, 0, 128), rgb(102, 0, 128), black);
 }
 
 .container {
@@ -39,6 +42,11 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    font-size: 20px;
+}
+
+#bibliot {
+    font-size: 20px;
 }
 
 #musics {
