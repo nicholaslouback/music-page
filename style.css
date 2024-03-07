@@ -70,6 +70,23 @@ footer {
     color: rgb(229, 229, 229);
 }
 
+.iconsLibrary {
+    cursor: pointer;
+}
+
+.recents>p {
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+.recents>p:hover {
+    color: rgb(229, 229, 229);
+}
+
+/* .iconsLibrary {
+    color: rgb(229, 229, 229);
+} */
+
 .contentText {
     display: flex;
     align-items: center;
@@ -152,6 +169,7 @@ main ion-icon {
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .description {
