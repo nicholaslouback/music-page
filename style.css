@@ -83,9 +83,7 @@ footer {
     color: rgb(229, 229, 229);
 }
 
-/* .iconsLibrary {
-    color: rgb(229, 229, 229);
-} */
+
 
 .contentText {
     display: flex;
@@ -145,6 +143,7 @@ main ion-icon {
 }
 
 #musics {
+    
     display: flex;
     flex-direction: column;
     scrollbar-color: none;
@@ -170,6 +169,13 @@ main ion-icon {
     gap: 1rem;
     margin-top: 1rem;
     cursor: pointer;
+    background: rgba(255, 255, 255, 0.014);
+    border-radius: 5%;
+    border: 0px;
+}
+
+.item:hover {
+    background-color: rgba(120, 120, 120, 0.39);
 }
 
 .description {
