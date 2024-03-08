@@ -19,7 +19,6 @@
                 <p class="contentText"><ion-icon name="home"></ion-icon> Home</p>
                 <p class="contentText"><ion-icon name="search"></ion-icon> Search</p>
             </div>
-
             <div class="containerSelect">
                 <div id="bibliot">
                     <div class="libHeader">
@@ -181,14 +180,19 @@
                     </ul>
                 </div>
             </div>
-
         </section>
 
         <section id="home">
             <div id="header">
-                <button id="buttonheader">All</button>
-                <button id="buttonheader">Music</button>
-                <button id="buttonheader">Podcasts</button>
+                <div>
+                    <ion-icon name="chevron-back-circle"></ion-icon>
+                    <ion-icon name="chevron-forward-circle"></ion-icon>
+                </div>
+                <div class="buttons-home">
+                    <button class="primary">All</button>
+                    <button>Music</button>
+                    <button>Podcasts</button>
+                </div>
                 <ul>
                     <li>
                         <div class="listimg">
@@ -294,7 +298,7 @@
                 </ul>
             </div>
 
-            <!-- <div id="section">
+            <div id="section">
                 <h3>Recent Played</h3>
                 <ul>
                     <li>
@@ -442,25 +446,23 @@
                 </ul>
 
 
-            </div> -->
-
-
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="music-player">
-            <img src="assets/capa de musica.jpg" alt="capa" id="choose">
-            <ion-icon name="play-skip-back-circle-outline"></ion-icon>
-            <ion-icon name="play-circle-outline"></ion-icon>
-            <ion-icon name="play-skip-forward-circle-outline"></ion-icon>
-            <ion-icon name="mic-outline"></ion-icon>
-            <ion-icon name="volume-high-outline"></ion-icon>
-            <ion-icon name="expand-outline"></ion-icon>
-        </div>
-        <div class="track-tine">
-            <div class="totaltime">03:20</div>
-            <div class="lasttime">0:17</div>
+        <img src="assets/capa de musica.jpg" alt="capa" id="choose">
+        <div class="controls">
+            <div class="music-player">
+                <ion-icon name="play-skip-back"></ion-icon>
+                <ion-icon name="play-circle" class="play"></ion-icon>
+                <ion-icon name="play-skip-forward"></ion-icon>
+            </div>
+            <div class="track-tine">
+                <p>03:20</p>
+                <div class="timeline"></div>
+                <p>0:17</p>
+            </div>
         </div>
     </footer>
 
