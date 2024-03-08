@@ -200,9 +200,14 @@ main ion-icon {
 }
 
 #home>#header>div>ion-icon {
-    color: rgb(229, 229, 229);
+    color: rgb(195, 195, 195);
     width: 32px;
     height: 32px;
+    cursor: pointer;
+}
+
+#home>#header>div>ion-icon:hover {
+    color: rgb(229, 229, 229);
 }
 
 .buttons-home {
@@ -272,8 +277,7 @@ button:hover {
 
 #section ul {
     display: flex;
-    /* flex-grow: 1; */
-    /* max-width: 60rem; */
+
     overflow-x: auto;
     gap: 1rem;
 }
